@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
     "ethers": "^6.13.4",
     "express": "^4.21.1",
     "near-api-js": "^5.0.1"
@@ -19,12 +18,16 @@
   "keywords": [],
   "description": "",
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.8.2",
     "@typescript-eslint/eslint-plugin": "^8.12.2",
     "@typescript-eslint/parser": "^8.12.2",
+    "dotenv": "^16.4.5",
     "eslint": "^9.13.0",
+    "hardhat": "^2.22.15",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
